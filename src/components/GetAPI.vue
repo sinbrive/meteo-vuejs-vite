@@ -13,7 +13,7 @@ export default {
       isloading: true,
       json: null,
       path: "https://openweathermap.org/img/w/",
-      url: "https://api.openweathermap.org/data/2.5/weather?lat=48&lon=0.19652&units=metric&appid="+import.meta.env.VITE_APP_APIKEY+"&lang=fr",
+      url: import.meta.env.VITE_APP_WEATHER_URL,
     };
   },
   created() {
