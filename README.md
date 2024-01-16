@@ -1,6 +1,6 @@
 # meteo-vuejs-vite
 
-Vuejs METEO APP bundled with VITE
+Vue 3 METEO APP bundled with VITE
 
 ```
 npm install

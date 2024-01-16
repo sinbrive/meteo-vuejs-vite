@@ -1,11 +1,11 @@
 {
-  "name": " meteo-vuejs-vite",
+  "name": "meteo-vuejs-vite",
   "version": "0.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base='/meteo-vuejs-vite/dist",
     "preview": "vite preview"
   },
   "dependencies": {
