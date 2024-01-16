@@ -1,0 +1,100 @@
+
+#api{
+    display: flex;
+    max-width: 500px;
+    /* height: 250x; */
+    margin: 20px auto;
+    background: rgb(38, 110, 125);
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    border-radius: 10px;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #eee;
+}
+
+h1 {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+  }
+
+.left{
+    flex:1;
+}
+
+.middle{
+    flex:1; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.right{
+    flex:1;
+}
+
+i {
+    margin-right: 5px;
+}
+
+#ville{
+    font-weight: bold;
+    color: #ccc;
+    font-size: 2rem;
+    margin: 10px auto;
+}
+.date{
+    display:flex;
+    justify-content: center;
+    gap:5px;
+}
+
+#icon img{
+    height:10rem;
+    margin-top:30px;
+    padding:0;
+    /* border: 1px red solid; */
+}
+
+
+#overall {
+    position: absolute;
+    bottom: 30px;
+}
+
+.right >div{
+    margin: 10px auto;
+}
+
+.temp  {
+    margin:15px 0 0 0;
+}
+
+.temp p {
+    padding: 0;
+    margin:3px 0 0 0;
+}
+
+.temp span{
+    font-size: 0.8rem;
+    font-style: italic;
+    color: #888;
+}
+
+@media (max-width: 400px) {
+    #api{
+        display: block;
+        margin: 20px auto;
+        background: rgb(38, 110, 125);
+        text-align:center;
+        border-radius: 10px;
+        font-family: Avenir, Verdana, Geneva, Tahoma, sans-serif;
+        color: #eee;
+    }
+}
