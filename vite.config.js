@@ -13,5 +13,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: '/',  // '/meteo-vuejs-vite/dist' for production
+  base: '/meteo-vuejs-vite/dist',  // '/meteo-vuejs-vite/dist' for production
 })
